@@ -1,0 +1,582 @@
+#tabs-tickets {
+    background-image: url(http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/72e53c05-a761-4a36-aded-701060fecc23/2015-06-25_09-37-52.png);
+    color: black;
+    background-color: black;
+}
+
+body {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/72e53c05-a761-4a36-aded-701060fecc23/2015-06-25_09-37-52.png");
+}
+
+.a-user-name {
+    color: white;
+}
+
+.ui-widget-header {
+    background-color: black;
+}
+
+body #tabs ul.ui-tabs-nav {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/151c3c99-4bbf-49f5-a5bd-d40b80373df1/2015-06-25_09-49-27.png");
+    /* Cubic */
+    background-color: black;
+    color: black;
+}
+
+body #tabs div.ui-tabs-panel {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/72e53c05-a761-4a36-aded-701060fecc23/2015-06-25_09-37-52.png");
+    /* Arabesque */
+    background-color: black;
+}
+
+body #tabs ul.ui-tabs-nav li.a-icons.ui-tabs-selected {
+    background: black;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Fix tab corner color                                              */
+
+/*-------------------------------------------------------------------*/
+
+body #tabs ul.ui-tabs-nav li.a-icons.ui-tabs-selected::after {
+    background: black;
+}
+
+body #tabs ul.ui-tabs-nav li.a-icons.ui-tabs-selected::before {
+    background: black;
+}
+
+body #tabs ul.ui-tabs-nav li.a-icons.ui-tabs-selected a::after {
+    display: none;
+}
+
+body #tabs ul.ui-tabs-nav li.a-icons.ui-tabs-selected a::before {
+    display: none;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+
+/* Override the override for case info tabs (sidebar)                */
+
+/*-------------------------------------------------------------------*/
+
+#tabs div.a-case-tab #case_sidebar .case_sidebar_container {
+    border: 1px solid #000;
+}
+
+#tabs div.a-case-tab #case_sidebar .case_sidebar_container .tabContainer {
+    background: #F0F0F0;
+}
+
+#tabs div.a-case-tab #case_sidebar .a-tab-buttons ul.tab li.tab.selected {
+    border-color: #CACACA #CACACA #F0F0F0;
+}
+
+#ticket_filter_data_toolbar_2183974 {
+    background-color: #3E3E3E;
+}
+
+#tabs div.a-case-tab #case_sidebar .a-tab-buttons ul.tab li.tab.selected::before, #tabs div.a-case-tab #case_sidebar .a-tab-buttons ul.tab li.tab.selected::after {
+    background: #F0F0F0;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Ticket List Stuff                                                 */
+
+/*-------------------------------------------------------------------*/
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data {
+    background: #3E3E3E none repeat scroll 0% 0%;
+}
+
+/* Dark gray background for ticket sort header row */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .a-case-table-header {
+    background: #3E3E3E;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .a-case-table-header, #tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item {
+    border-bottom: 1px solid #CCC;
+}
+
+/* dark gray background texture for ticket list */
+
+#ticket_filter_list_items_outer_div {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/5c5b1743-35d9-454a-a09d-b21b906cbc01/2015-07-01_15-39-42.png") ;
+    /*background: #3E3E3E !important;*/
+}
+
+/* shadow divider between filter row and ticket list */
+
+#ticket_filter_list_items_data_div.a-case-table-contents {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item.ticket_filter_item_non_selectable span {
+    color: #000;
+}
+
+/* Ticket sort row background */
+
+/* Ticket sort row text color */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .a-case-table-header .a-column {
+    color: #B9B9B9;
+}
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .toolbar_ticket_filter .a-priority-sort span {
+    color: #B4B4B4;
+}
+
+/*************************/
+
+/* Ticket selector links */
+
+/*************************/
+
+/* unvisited link */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .toolbar_ticket_filter .a-priority-sort span a:link {
+    color: #64B3FF;
+}
+
+/* visited link */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .toolbar_ticket_filter .a-priority-sort span a:visited {
+    color: #64B3FF;
+}
+
+/* mouse over link */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .toolbar_ticket_filter .a-priority-sort span a:hover {
+    color: #00A5FF;
+    transition: all 0.2s linear;
+}
+
+/* selected link */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .toolbar_ticket_filter .a-priority-sort span a:active {
+    color: #FFF;
+    transition: none;
+}
+
+/* Open label; green to blue */
+
+body .ticket_filter_item_status_box.ticket_filter_item_status_box_open span {
+    background: #386C98 none repeat scroll 0% 0%;
+}
+
+/* Pending label; orange to green */
+
+body .ticket_filter_item_status_box.ticket_filter_item_status_box_pending span {
+    background: #52AE8A none repeat scroll 0% 0%;
+    border: 1px solid #2B5F53;
+}
+
+#right_tabs_ticket_panel {
+    background-color: black;
+    color: green;
+}
+
+/* Selected ticket sidebar border indicator (blue thing) */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item_current_selected {
+    border-left: 6px solid #006DA1;
+}
+
+/* Open tickets in list */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item_open {
+    background: #D7DCE0 ;
+}
+
+/* Pending tickets in list */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item {
+    background: #D6EBE0;
+}
+
+/* Unselectable (locked) tickets in list */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .ticket_filter_item.ticket_filter_item_non_selectable td {
+    background-color: #E0C5C5;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Ticket Display Stuff                                              */
+
+/*-------------------------------------------------------------------*/
+
+/* Border color fix */
+
+#tabs div.a-case-tab #case_contents .case_contents {
+    border: 1px solid #000;
+}
+
+/* Star background for case message display */
+
+#tabs div.a-case-tab #case_contents .case_contents_container .customer_history_ticket.not-first {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/4a3ef1ae-9298-4141-b967-623b5e7aa530/2015-06-24_17-06-18.png");
+}
+
+body .a-tabnav ul.tab li.tab.selected, body .a-tabnav ul.tab li.tab.active {
+    border-color: #CACACA #CACACA #F0F0F0;
+}
+
+body .a-tabnav ul.tab li.tab.selected::before, body .a-tabnav ul.tab li.tab.selected::after, body .a-tabnav ul.tab li.tab.active::before, body .a-tabnav ul.tab li.tab.active::after {
+    background: #F0F0F0;
+}
+
+body .a-tabnav ul.tab li.tab.selected span.contents, body .a-tabnav ul.tab li.tab.active span.contents {
+    background: #F0F0F0 none repeat scroll 0% 0%;
+}
+
+#tabs div.a-case-tab #case_contents .case_contents_container .customer_history_ticket.first {
+    background: #F0F0F0 none repeat scroll 0% 0%;
+}
+
+#tabs div.a-case-tab #case_contents .case_contents_container .customer_history_ticket.not-first .a-ticket-center .customer_history_ticket_center {
+    background: #F0F0F0 none repeat scroll 0% 0%;
+}
+
+#tabs div.a-case-tab #case_contents .case_contents_container .customer_history_ticket.note .a-ticket-center .customer_history_ticket_center {
+    background: #FFFAC3 none repeat scroll 0% 0%;
+}
+
+/* Background for reply panel */
+
+#tabs div.a-case-tab #case_contents .case_contents_container .a-ticket-reply {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/5c5b1743-35d9-454a-a09d-b21b906cbc01/2015-07-01_15-39-42.png");
+    /* Using same texture as ticket list */
+    /* background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/306c569f-4089-4e72-90c0-c17d4862a74d/2015-06-25_08-51-01.png");
+        /* background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/754eae05-acc8-4962-aadf-2f82053a18b5/2015-06-25_08-49-31.png");
+        /* background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/94515589-62d7-4ec7-afd8-ea8f8678cbd6/2015-06-25_08-46-44.png");
+        /* background: transparent -moz-linear-gradient(center top , #CCC, #5F5F5F) repeat scroll 0% 0%; /* taken from ticket search tab */
+}
+
+/* Also background fallback in case reply panel and ticket don't go far enough */
+
+#tabs div.a-case-tab #case_contents .case_contents_container {
+    background: #000 none repeat scroll 0% 0%;
+}
+
+/* Form labels */
+
+body .a-form-label {
+    color: #969696;
+}
+
+/* Links above form */
+
+#tabs div.a-case-tab #case_contents .case_contents_container .a-ticket-reply a {
+    color: #59A3E1;
+}
+
+/*---------------------------*/
+
+/* Footer background texture */
+
+/*---------------------------*/
+
+#tabs div.a-case-tab #case_footer {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/151c3c99-4bbf-49f5-a5bd-d40b80373df1/2015-06-25_09-49-27.png");
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Ticket Search tab                                                 */
+
+/*-------------------------------------------------------------------*/
+
+#agent_search_tab .a-search-main {
+    border-color: #000;
+    background: transparent -moz-linear-gradient(center top , #CCC, #5F5F5F) repeat scroll 0% 0%;
+}
+
+body .a-help-text div {
+    color: #484848;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* KB Search tab                                                     */
+
+/*-------------------------------------------------------------------*/
+
+.a-agent-kb .agent_kb_search_main_browse_right .a-search-inner-container {
+    background: #CCC;
+}
+
+.a-agent-kb .a-search-results .a-search-results-header {
+    background: #CCC;
+}
+
+/*-------------------------------------------------------------------*/
+
+#menu-above-header, #menu-under-header {
+    /*background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/151c3c99-4bbf-49f5-a5bd-d40b80373df1/2015-06-25_09-49-27.png"); /* Cubic */
+    background: black;
+}
+
+#footer, #footer #sub-floor, #footer a {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/151c3c99-4bbf-49f5-a5bd-d40b80373df1/2015-06-25_09-49-27.png") ;
+    /* Cubic */
+    background: black;
+}
+
+.container-fluid {
+    color: #787878;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #A1A1A1;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Glow on tab text                                                  */
+
+/*-------------------------------------------------------------------*/
+
+#tabs_ticket_panel #left_tabs_ticket_panel #left_tabs_ticket_panel_data .a-filters-container .a-filters-list {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 40px rgba(255,255,255,1), 0 0 50px rgba(255,255,255,1);
+}
+
+/* Glow on high-pri labels' text */
+
+.a-label-color-red {
+    text-shadow: 0 0 1px rgba(255,255,255,0.5) , 0 0 2px rgba(255,255,255,0.75) , 0 0 4px rgba(255,255,255,0.6), 0 0 5px rgba(255,255,255,0.5);
+}
+
+/* Pink label changed to green/black */
+
+.a-label-color-pink {
+    color: #00FFC0 ;
+    background: #002230 ;
+    border-color: #00D19D ;
+}
+
+/* Pink label X */
+
+.a-label-color-pink span {
+    color: #00FFC0 ;
+}
+
+/* Purple label changed to blue/black */
+
+.a-label-color-purple {
+    color: #51EDFF ;
+    background: #002230 ;
+    border-color: #00AEFF ;
+}
+
+/* Purple label X */
+
+.a-label-color-purple span {
+    color: #51EDFF ;
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Tab Buttons                                                       */
+
+/*-------------------------------------------------------------------*/
+
+/* Unselected ticket shadow effects + background texture */
+
+body #tabs ul.ui-tabs-nav li {
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000 ;
+    background: #000;
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/4bd6f248-4206-4dd6-bac3-6c1087fad39e/2015-06-26_14-34-45.png");
+}
+
+/* Remove purple background on case tab X button */
+
+body #tabs ul.ui-tabs-nav li.ui-tabs-selected .tab_closer {
+    background: rgba(88, 81, 98, 0) url("https://cdn.desk.com/assets/a-icon-x-sprite-925432cc3fe34fe31b4a3e6fa73c84fb.png") no-repeat scroll 0px -22px;
+}
+
+/* Glow on customer name text in selected case tab */
+
+body #tabs ul.ui-tabs-nav li a .top_tab_customer_name {
+    overflow: visible;
+    text-shadow: 0 0 4px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,1);
+}
+
+/* Blue space background for selected case tab */
+
+body #tabs ul.ui-tabs-nav li.ui-tabs-selected {
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    border-top-color: #000;
+    border-right-color: #000;
+    border-left-color: #000;
+    border-bottom: 1px solid #000 ;
+}
+
+/* Glow on input button text */
+
+.input.button button, body .input.button input.a-button, body .input.button button.a-button, body .a-agent-button button, body .a-agent-button input.a-button, body .a-agent-button button.a-button {
+    color: white ;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 40px rgba(255,255,255,1), 0 0 50px rgba(255,255,255,1) ;
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/f11c675d-0156-46c1-8e70-a0eee5ec841e/2015-06-18_15-01-01.png");
+    /*background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/f155a897-0f36-45b5-9b39-175615b97d2a/2015-06-17_10-51-23.png");*/
+    border: 1px solid #000;
+}
+
+/* Selected ticket shadow effects */
+
+/* Gray background for main stuff */
+
+#tabs_ticket_panel #right_tabs_ticket_panel_data .a-case-table-contents-wrapper {
+    background: #F0F0F0 none repeat scroll 0% 0%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/* Ticket category button backgrounds                                                                                     */
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------*/
+
+/* My Open Tickets */
+
+/*-----------------*/
+
+#tab-ticket-filter-1824027 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/a5291cdc-8008-4562-9afc-2da455dffffc/2015-06-17_09-10-45.png");
+}
+
+/*--------------------*/
+
+/* My Pending Tickets */
+
+/*--------------------*/
+
+#tab-ticket-filter-2123502 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/3fe10e94-ba56-4f30-b651-863da94bdf11/2015-06-17_09-14-57.png");
+}
+
+/*--------------------*/
+
+/* My On Hold Tickets */
+
+/*--------------------*/
+
+#tab-ticket-filter-1873083 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/656cd0d2-583f-4dd3-b161-4e7f1516ef54/2015-06-17_09-35-57.png");
+    /*background-color: #DBD7C8;*/
+}
+
+/*---------------*/
+
+/* Handoff Queue */
+
+/*---------------*/
+
+#tab-ticket-filter-2020714 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/645cf557-fcc0-405c-9285-2955818aa208/2015-06-17_09-24-47.png");
+}
+
+/*----------------*/
+
+/* Urgent / Phone */
+
+/*----------------*/
+
+#tab-ticket-filter-2396629 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/5d5cc1f9-2beb-4b3d-aee9-3ae8cd78e12b/2015-06-17_08-55-29.png");
+}
+
+/*--------------*/
+
+/* Offline Chat */
+
+/* DEFUNCT */
+
+/*--------------*/
+
+#tab-ticket-filter-2396686 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/2c6d86c3-5419-45d9-938b-ff096259ef49/2015-06-17_09-39-42.png");
+}
+
+/*------*/
+
+/* FIFO */
+
+/*------*/
+
+#tab-ticket-filter-2475319 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/0153359d-d821-42a6-bf89-6cdc4a58027c/2015-06-17_10-10-32.png");
+    /*background-color: #98BFE1;*/
+}
+
+/*----------*/
+
+/* Priority */
+
+/*----------*/
+
+#tab-ticket-filter-1775955 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/0be040da-0d67-4e1d-8470-9908a6ce670e/2015-06-17_10-08-02.png");
+    /*background-color: #E0DECD;*/
+}
+
+/*------------------------*/
+
+/* Unassigned 24 Hours T1 */
+
+/*------------------------*/
+
+#tab-ticket-filter-1780704 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/5be085c9-36f3-408d-83c7-efcef8bc9170/2015-06-17_10-11-55.png");
+}
+
+/*---------------------------*/
+
+/* Salesforce Engage Tickets */
+
+/*---------------------------*/
+
+#tab-ticket-filter-1874634 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/2c6d86c3-5419-45d9-938b-ff096259ef49/2015-06-17_09-39-42.png");
+    /* Repurposed Offline Chat background */
+}
+
+/*--------------*/
+/* Remove stats on right top sidebar */
+/*---------------*/
+
+#ticket_filter_grouping_div{
+    display:none;
+}
+
+/* T1 Unassigned */
+
+/*---------------*/
+
+#tab-ticket-filter-2183974 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/0ba6027d-b71d-4732-91cb-b51f9024bd56/2015-06-17_09-27-57.png");
+    /* background-color: #CDE7EA; */
+}
+
+/*-------------------*/
+
+/* Recently Resolved */
+
+/*-------------------*/
+
+#tab-ticket-filter-1863343 {
+    background-image: url("http://content.screencast.com/users/Kevin.Pardot/folders/Snagit/media/791fd2e5-e4c3-45c7-9501-738154373d7c/2015-06-17_10-15-26.png");
+}
+
